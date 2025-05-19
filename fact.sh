@@ -1,6 +1,7 @@
 echo "Enter the number"
 read n
 fact=1
+
 while (( n > 0 ))
 do
     fact=$(( fact * n ))
